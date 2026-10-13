@@ -1,0 +1,40 @@
+import { LegalAppointment } from "@/types";
+
+export const MOCK_APPOINTMENTS: LegalAppointment[] = [
+  {
+    id: "apt_01",
+    clientId: "usr_client_01",
+    clientName: "Gopakumar Nambiar",
+    clientPhone: "+91 98470 12345",
+    advocateId: "adv_kerala_01",
+    advocateName: "Adv. Meera Krishnan",
+    advocateCourt: "High Court of Kerala",
+    date: "2024-11-15",
+    timeSlot: "04:30 PM - 05:15 PM IST",
+    mode: "video",
+    status: "confirmed",
+    matterTitle: "WP(C) 19482/2024 - KSEB Route Alignment",
+    category: "Writ Petition Consultation",
+    summary: "Pre-hearing strategy session to finalize reply affidavit grounds against KSEB counter affidavit.",
+    feeINR: 2500,
+    meetingLinkMock: "https://wakheel.com/demo-room/video-session-kerala-482",
+  },
+  {
+    id: "apt_02",
+    clientId: "usr_client_01",
+    clientName: "Gopakumar Nambiar",
+    clientPhone: "+91 98470 12345",
+    advocateId: "adv_kerala_01",
+    advocateName: "Adv. Meera Krishnan",
+    advocateCourt: "High Court of Kerala",
+    date: "2024-11-22",
+    timeSlot: "11:00 AM - 11:45 AM IST",
+    mode: "in_person",
+    status: "requested",
+    matterTitle: "Arbitration & Insolvency / Malabar Infotech",
+    category: "Commercial Arbitration Strategy",
+    summary: "In-person chambers consultation to execute Section 21 notice and review bank guarantee documents.",
+    feeINR: 2500,
+    locationAddress: "Krishnan & Associates Legal Chambers, 3rd Floor, High Court Junction, Ernakulam, Kerala 682031",
+  }
+];
